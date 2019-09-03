@@ -40,7 +40,7 @@ export default () => [
       },
     ],
     playLink: `https://store.steampowered.com/app/628700/The_Flaws_of_Gravity/`,
-    gameLink: `/flaws-of-gravity`
+    gameLink: `/project/flaws-of-gravity`
   },
   {
     id: `through-her-eyes`,

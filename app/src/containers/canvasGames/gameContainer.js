@@ -37,9 +37,8 @@ class Game extends React.Component {
     // Layer is actual canvas element (so you may have several canvases in the stage)
     // And then we have canvas shapes inside the Layer
     return (
-     
     <div>
-      {
+      { game !== undefined ?
         (function() {
         switch(game.id) {
           case 'snake':
@@ -49,7 +48,7 @@ class Game extends React.Component {
           default:
             return null;
         }
-        })()
+        })(): null
       }
     </div> 
     );
