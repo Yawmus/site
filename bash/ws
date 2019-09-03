@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOCKER_DIR=~/Projects/personal/website
+DOCKER_DIR=~/Projects/personal/yawmus.github.io
 
 if [ "$1" = "up" ]; then
   ws build $2
