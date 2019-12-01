@@ -20,6 +20,7 @@ class Home extends React.Component {
     let highlight = gameList[0];
     gameList.shift();
 
+            console.log(highlight.gameLink);
     return (
       <div className="home">
         <div className="flawsOuter">

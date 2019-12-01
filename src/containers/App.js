@@ -15,7 +15,14 @@ function App() {
   //.catch(function(error) {
   //console.error("Error writing document: ", error);
   //});
-
+  let data = db.collection('highscores').doc('pidmohT5sTBu93gDku8l').get()
+    .then(doc => {
+      const data = doc.data();
+      console.log('data', data);
+    })
+    .catch(err => {
+      console.log(err);
+    })
   return (
       <div className="App">
         <div className="title"> 

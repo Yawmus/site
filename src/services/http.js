@@ -1,3 +1,4 @@
+import { db } from './../firebase'
 const axios = require('axios');
 
  //Make a request for a user with a given ID
@@ -54,11 +55,23 @@ export async function setHighscore(payload) {
 
 export async function getHighscore(game) {
   try {
-    const response = await axios({
-      url: `http://localhost:8080/highscore?game=${game}`,
-      method: 'get'
-    })
-    return response.data;
+    db.collection('highscores').get()
+      .then(query => {
+        const data = query.docs.map(doc => doc.data());
+        data = data.filter(item => {
+          return item.name == game
+        })
+        console.log('data', data);
+      })
+      .catch(err => {
+        console.log(err);
+      })
+
+    //const response = await axios({
+      //url: `http://localhost:8080/highscore?game=${game}`,
+      //method: 'get'
+    //})
+    //return response.data;
   } catch (error) {
     console.error(error);
   }

@@ -83,7 +83,7 @@ export default () => [
     ],
     gitLink: `https://github.com/Yawmus/ThroughHerEyes`, 
     playLink: `http://yawmus.github.io/game/index.html`,
-    gameLink: `/through-her-eyes`
+    gameLink: `/project/through-her-eyes`
   },
   {
     id: `razdraz-deathmatch`,
@@ -127,6 +127,6 @@ export default () => [
       //`raz5.png`
     ],
     gitLink: `https://github.com/Yawmus/RazdrazDeathmatch`, 
-    gameLink: `/razdraz-deathmatch`
+    gameLink: `/project/razdraz-deathmatch`
   },
 ]
