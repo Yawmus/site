@@ -86,6 +86,18 @@ export default () => [
     gameLink: `/project/through-her-eyes`
   },
   {
+    id: `particle-simulator`,
+    name: 'Falling Sand on the GPU',
+    desc: `Physics and pixel drawing done completely using Unity compute shaders!`,
+    desc2: `After spending some time tinkering with graphics shaders, I thought a falling sand game could be a great application to dip my toes into compute shaders... The results were awesome! If you're curious how I handled physics simulations without conditional branching see the shader code sample below the video.`,
+    mainImage: `simul/fallingsand.png`,
+    mainImageOrientation: "left",
+    video: `https://drive.google.com/file/d/16UUYVAyDVHuwYNjcR__jcy7OvUzCh4_A/preview?usp=sharing`,
+    code: `https://docs.google.com/document/d/1w3dqEILRNSBseRSipE4EZQojkw3S2ZYMmFnY1MOmius/preview?usp=sharing`,
+    gitLink: `https://github.com/Yawmus/ThroughHerEyes`, 
+    gameLink: `/project/particle-simulator`
+  },
+  {
     id: `razdraz-deathmatch`,
     name: 'Razdraz Deathmatch',
     type: '3D Top-Down Multiplayer Deathmatch',
@@ -96,30 +108,30 @@ export default () => [
 `Designed the game. (see pitch document below)`,
 `Did all Unity editor work`
     ],
-    mainImage: `raz1.png`,
+    mainImage: `raz/raz1.png`,
     mainImageOrientation: "right",
     images: [
       {
-        src: `${domain}/raz2.png`,
+        src: `${domain}/raz/raz2.png`,
         thumbnail: `${domain}/raz2.png`,
         thumbnailWidth: 40,
         thumbnailHeight: 40,
       },
       {
-        src: `${domain}/raz3.png`,
-        thumbnail: `${domain}/raz3.png`,
+        src: `${domain}/raz/raz3.png`,
+        thumbnail: `${domain}/raz/raz3.png`,
         thumbnailWidth: 40,
         thumbnailHeight: 40,
       },
       {
-        src: `${domain}/raz4.png`,
-        thumbnail: `${domain}/raz4.png`,
+        src: `${domain}/raz/raz4.png`,
+        thumbnail: `${domain}/raz/raz4.png`,
         thumbnailWidth: 40,
         thumbnailHeight: 40,
       },
       {
-        src: `${domain}/raz5.png`,
-        thumbnail: `${domain}/raz5.png`,
+        src: `${domain}/raz/raz5.png`,
+        thumbnail: `${domain}/raz/raz5.png`,
         thumbnailWidth: 40,
         thumbnailHeight: 40,
       },
@@ -128,5 +140,5 @@ export default () => [
     ],
     gitLink: `https://github.com/Yawmus/RazdrazDeathmatch`, 
     gameLink: `/project/razdraz-deathmatch`
-  },
+  }
 ]

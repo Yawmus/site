@@ -1,6 +1,6 @@
 import React from 'react'
 import YouTube from 'react-youtube';
-import games from './schoolGames';
+import games from './showcaseList';
 import { Link } from 'react-router-dom'
 
 class Home extends React.Component {

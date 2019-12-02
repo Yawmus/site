@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Home from './home';
-import Games from './games'
-import Game from './game'
+import Other from './other'
+//import Games from './games'
+import Project from './project'
 //import Counter from './counter'
 import Contact from './contact'
 import Resume from './resume'
@@ -24,8 +25,8 @@ function Navigation(){
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName="active" to="/games">
-              Games
+            <NavLink activeClassName="active" to="/other">
+              Other Projects
             </NavLink>
           </li>
           <li>
@@ -40,7 +41,7 @@ function Navigation(){
           </li>
           <li>
             <NavLink activeClassName="active" to="/contact">
-              Contact
+              Bio & Contact
             </NavLink>
           </li>
         </ul>
@@ -48,11 +49,11 @@ function Navigation(){
         <Switch>
           <Route exact path="/" component={() => RedirectTo('/home')}/>
           <Route path="/home" component={Home} />
+          <Route path="/other" component={Other} />
           <Route path="/blog" component={Blog} />
           <Route path="/resume" component={Resume} />
-          <Route path="/games" component={Games} />
           <Route path="/contact" component={Contact} />
-          <Route path="/project/:id" component={Game} />
+          <Route path="/project/:id" component={Project} />
           <Route path="/404" component={NotFound}/>
           <Redirect to="/404" />
         </Switch>
@@ -60,6 +61,12 @@ function Navigation(){
     </Router>
   );
 }
+          //<li>
+            //<NavLink activeClassName="active" to="/games">
+              //Games
+            //</NavLink>
+          //</li>
 
+          //<Route path="/games" component={Games} />
 
 export default Navigation;
