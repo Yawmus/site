@@ -70,7 +70,7 @@ class Home extends React.Component {
           gameList.map(( { id, name, mainImage, mainImageOrientation, type, desc, gameLink, playLink } ) => {
             return (
               <div className="portfolioItem" key={id}>
-                <img src={require(`./images/school/${mainImage}`)} alt="A beautiful speciment" height="250px" align={mainImageOrientation}/>
+                <img src={require(`./images/projects/${mainImage}`)} alt="A beautiful speciment" height="250px" align={mainImageOrientation}/>
                 <h3 align="center">
                   { name }
                 </h3>

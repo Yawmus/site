@@ -1,4 +1,4 @@
-const domain = 'http://localhost:8080/images/school';
+const domain = 'http://localhost:8080/images/projects';
 
 export default () => [
   {
@@ -15,26 +15,26 @@ export default () => [
     ],
     images: [
       {
-        src: `${domain}/fog5.jpg`,
-        thumbnail: `${domain}/fog5.jpg`,
+        src: `${domain}/fog/fog5.jpg`,
+        thumbnail: `${domain}/fog/fog5.jpg`,
         thumbnailWidth: 40,
         thumbnailHeight: 40,
       },
       {
-        src: `${domain}/fog2.jpg`,
-        thumbnail: `${domain}/fog2.jpg`,
+        src: `${domain}/fog/fog2.jpg`,
+        thumbnail: `${domain}/fog/fog2.jpg`,
         thumbnailWidth: 40,
         thumbnailHeight: 40,
       },
       {
-        src: `${domain}/fog.jpg`,
-        thumbnail: `${domain}/fog.jpg`,
+        src: `${domain}/fog/fog.jpg`,
+        thumbnail: `${domain}/fog/fog.jpg`,
         thumbnailWidth: 40,
         thumbnailHeight: 40,
       },
       {
-        src: `${domain}/fog3.jpg`,
-        thumbnail: `${domain}/fog3.jpg`,
+        src: `${domain}/fog/fog3.jpg`,
+        thumbnail: `${domain}/fog/fog3.jpg`,
         thumbnailWidth: 40,
         thumbnailHeight: 40,
       },
@@ -53,30 +53,30 @@ export default () => [
 `Made a highly modular, state-based interaction system. (see code sample below)`,
 `Did all Unity editor work`
     ],
-    mainImage: `throughhereyes.png`,
+    mainImage: `the/throughhereyes.png`,
     mainImageOrientation: "left",
     images: [
       {
-        src: `${domain}/the5.png`,
-        thumbnail: `${domain}/the5.png`,
+        src: `${domain}/the/the5.png`,
+        thumbnail: `${domain}/the/the5.png`,
         thumbnailWidth: 40,
         thumbnailHeight: 40,
       },
       {
-        src: `${domain}/the2.png`,
-        thumbnail: `${domain}/the2.png`,
+        src: `${domain}/the/the2.png`,
+        thumbnail: `${domain}/the/the2.png`,
         thumbnailWidth: 40,
         thumbnailHeight: 40,
       },
       {
-        src: `${domain}/the7.png`,
-        thumbnail: `${domain}/the7.png`,
+        src: `${domain}/the/the7.png`,
+        thumbnail: `${domain}/the/the7.png`,
         thumbnailWidth: 40,
         thumbnailHeight: 40,
       },
       {
-        src: `${domain}/the1.png`,
-        thumbnail: `${domain}/the1.png`,
+        src: `${domain}/the/the1.png`,
+        thumbnail: `${domain}/the/the1.png`,
         thumbnailWidth: 40,
         thumbnailHeight: 40,
       },
