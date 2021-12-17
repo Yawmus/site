@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+body {
+  font-family: "Inconsolata", monospace;
+}
+.main-pic {
+  opacity: 1;
+  transition-duration: 1s;
+  transition-property: opacity;
+}
+.main-pic:hover {
+  opacity: 0;
+}
+.main-pic-wrapper {
+  position: relative;
+}
+.main-pic-wrapper .ant-image:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.ant-col {
+  /* background: green; */
+}
+.ant-divider-dashed {
+  border-color: rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
