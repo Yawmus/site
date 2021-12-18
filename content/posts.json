@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Ambition",
+    "subTitle": "Chip off the ol' block",
+    "body": "Thinking that different feed elements should load their own respective [slug]. How to save posts appropriately? Will they be perputually managed by code changes?"
+  },
+  {
+    "title": "The best Jerry! The best!",
+    "body": "Another year, another new personal website. I decided this time to throw everything out of the window and start fresh. Decided to try out NextJS and Vercel - so far effortless! The design style I went with is antd which is very common. The ideal state to achieve would be to replicate my prior functionality, but make it look more personal"
+  },
+  { "title": "Martha Lincoln", "body": "asdf" },
+  {
+    "title": "French Dip",
+    "body": "containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It"
+  }
+]

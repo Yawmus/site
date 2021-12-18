@@ -1,5 +1,5 @@
 import "antd/dist/antd.css";
-import "../custom/custom.css";
+import "../styles/custom.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

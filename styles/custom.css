@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+body {
+  font-family: "Inconsolata", monospace !important;
+}
+.main-pic {
+  opacity: 1;
+  transition-duration: 1s;
+  transition-property: opacity;
+}
+.main-pic:hover {
+  opacity: 0;
+  cursor: pointer;
+}
+.main-pic-wrapper {
+  position: relative;
+}
+.main-pic-wrapper .ant-image:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.feed-item:hover {
+  background: lightgray;
+  cursor: pointer;
+}
+.feed-item p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.ant-divider-dashed {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  height: 100% !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected {
+  color: black !important;
+}
